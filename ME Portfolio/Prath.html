@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prathamesh Kolhe - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Fixed Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">PK</div>
+            <ul class="nav-menu">
+                <li><a href="#hero" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#activities" class="nav-link">Activities</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="season-indicator" id="seasonIndicator"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Hello, I'm <span class="highlight">Prathamesh Kolhe</span></h1>
+            <p class="hero-subtitle">I'm a <span class="rotating-text" id="rotatingText">Researcher</span></p>   
+            <a href="#projects" class="cta-button">View my projects</a>
+        </div>
+        <div class="background-image" id="backgroundImage"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-avatar">
+                    <div class="pixel-avatar" id="avatar"></div>
+                </div>
+                <div class="about-text">
+                    <p>I'm a university student pursuing a Bachelor of Science in Computer Science and Biochemistry at Western Michigan University. My passion lies at the intersection of technology and biology, where I explore how AI and machine learning can transform education and scientific research.</p>
+                    <p>I'm particularly interested in AI development, game design, and bioinformatics. Whether I'm building Unity games with intelligent agents, conducting VR research for immersive learning, or working on DNA extraction projects, I love connecting computing with real-world applications.</p>
+                    <p>When I'm not coding, you'll find me leading my tennis team, volunteering in my community, or collaborating on exciting AI projects with fellow students.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon">🎮</div>
+                    <h3 class="project-title">Unity AI Games</h3>
+                    <p class="project-description">Developed two Unity-based 2D games implementing machine learning techniques, including a Finite State Machine for adaptive agent behavior and a probabilistic learning model for AI decision-making and pattern recognition.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Unity</span>
+                        <span class="tech-tag">C#</span>
+                        <span class="tech-tag">AI/ML</span>
+                        <span class="tech-tag">Finite State Machine</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">🥽</div>
+                    <h3 class="project-title">XR/VR Research</h3>
+                    <p class="project-description">Conducting research on AI/ML applications for XR/VR immersive learning; designed Unity VR prototypes integrated with machine learning to improve educational engagement.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">VR/XR</span>
+                        <span class="tech-tag">Unity</span>
+                        <span class="tech-tag">Machine Learning</span>
+                        <span class="tech-tag">Research</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">🧬</div>
+                    <h3 class="project-title">DNA Extraction Lab</h3>
+                    <p class="project-description">Performed hands-on DNA extraction and analysis, applying biochemistry techniques to connect theory with practice, bridging computer science with biological research.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Biochemistry</span>
+                        <span class="tech-tag">Lab Work</span>
+                        <span class="tech-tag">Research</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">🌐</div>
+                    <h3 class="project-title">Personal Website</h3>
+                    <p class="project-description">Built a personal portfolio website using HTML, CSS, and JavaScript to showcase projects and skills with a cozy, seasonal pixel-art inspired design.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="skill-icon">💻</div>
+                    <h3 class="skill-category-title">Programming</h3>
+                    <ul class="skill-list">
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>C#</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <div class="skill-icon">🔧</div>
+                    <h3 class="skill-category-title">Technical</h3>
+                    <ul class="skill-list">
+                        <li>Computer & Laptop Repair</li>
+                        <li>AI Development</li>
+                        <li>Robotics Programming</li>
+                        <li>Unity Game Development</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <div class="skill-icon">🤝</div>
+                    <h3 class="skill-category-title">Soft Skills</h3>
+                    <ul class="skill-list">
+                        <li>Strong Communication</li>
+                        <li>Leadership (Tennis Team Captain)</li>
+                        <li>Teamwork</li>
+                        <li>Problem-Solving</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <div class="skill-icon">🌍</div>
+                    <h3 class="skill-category-title">Languages</h3>
+                    <ul class="skill-list">
+                        <li>Hindi</li>
+                        <li>English</li>
+                        <li>Marathi</li>
+                        <li>Urdu</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Activities Section -->
+    <section id="activities" class="activities">
+        <div class="container">
+            <h2 class="section-title">Hobbies & Activities</h2>
+            <div class="activities-grid">
+                <div class="activity-card">
+                    <div class="activity-icon">🎾</div>
+                    <h3 class="activity-title">Tennis Team Captain</h3>
+                    <p class="activity-description">Leading the team and developing strategic thinking and leadership skills on and off the court.</p>
+                </div>
+
+                <div class="activity-card">
+                    <div class="activity-icon">🤖</div>
+                    <h3 class="activity-title">AI Club Collaborator</h3>
+                    <p class="activity-description">Collaborating on advanced AI projects, improving technical and collaborative skills with fellow enthusiasts.</p>
+                </div>
+
+                <div class="activity-card">
+                    <div class="activity-icon">📚</div>
+                    <h3 class="activity-title">Part-Time Tutor</h3>
+                    <p class="activity-description">Taught Mathematics and English to high school students, improving student grades by 20-30%.</p>
+                    <span class="activity-period">Aug '23 — Mar '24</span>
+                </div>
+
+                <div class="activity-card">
+                    <div class="activity-icon">❤️</div>
+                    <h3 class="activity-title">Volunteering</h3>
+                    <p class="activity-description">Assisted residents at Friendship Village with device setup and repair, providing patient tech support and improving their digital accessibility.</p>
+                    <span class="activity-period">Jul '23 — Aug '23</span>
+                </div>
+
+                <div class="activity-card">
+                    <div class="activity-icon">🎮</div>
+                    <h3 class="activity-title">Gaming & Esports</h3>
+                    <p class="activity-description">Passionate about game development and competitive gaming, exploring the intersection of AI and interactive entertainment.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p class="contact-intro">Feel free to reach out if you'd like to collaborate, have questions, or just want to connect!</p>
+                    <div class="contact-links">
+                        <a href="mailto:kolheprathamesh38@gmail.com" class="contact-link">
+                            <span class="contact-icon">✉️</span>
+                            <span>kolheprathamesh38@gmail.com</span>
+                        </a>
+                        <a href="https://linkedin.com" target="_blank" class="contact-link">
+                            <span class="contact-icon">💼</span>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://github.com" target="_blank" class="contact-link">
+                            <span class="contact-icon">🐙</span>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Prathamesh Kolhe. Made with care and pixel art inspiration.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
